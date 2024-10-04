@@ -2,8 +2,10 @@
   "name": "todesktop",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://nixnash.github.io/ToDesktop-project/",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "postcss src/styles.css -o dist/output.css"
   },
   "keywords": [],
   "author": "",
